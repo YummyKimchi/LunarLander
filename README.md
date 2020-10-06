@@ -1,6 +1,14 @@
 # LunarLander
 A basic lunar lander program to be used in learning about autonomous control of robots.
 
+## Running the program
+
+To run from Visual Studio Code, open the file `src\main\java\com\bitsforabetterworld\lunarlander\Main.java`. Click on the `Run` link above the `main` method.
+
+Or to run from PowerShell, cd to the LunarLander directory and run `.\gradlew run`
+
+## Trying the game
+
 First, try to land the lander in teleop mode. 
 
 The goal is to have a successful landing, which means that your lander gets to a Y position of 0
@@ -17,6 +25,8 @@ Keyboard controls:
 	A: rotate counterclockwise
 	D: rotate clockwise
 	N: Next level
+
+## Creating an autonomous program
 
 Then, try your hand at programming the autonomous mode!
 
